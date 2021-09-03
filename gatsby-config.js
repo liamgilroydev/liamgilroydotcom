@@ -34,7 +34,7 @@ module.exports = {
         baseUrl: "liam-gilroy.local",
         protocol: "http",
         hostingWPCOM: false,
-        useACF: false,
+        useACF: true,
         verboseOutput: false,
         perPage: 100,
         concurrentRequests: 10,
@@ -46,6 +46,7 @@ module.exports = {
           "**/tags",
           "**/taxonomies",
           "**/users",
+          "**/menus"
         ],
       },
     },
